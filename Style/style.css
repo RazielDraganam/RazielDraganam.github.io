@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px) {
+	body{
+		max-width:100%;
+	}
+}
+
+body {
+	background-color: gray;
+}
+
+header {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+header a {
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: white;
+	text-align: center;
+	padding: 1rem 2rem;
+	text-decoration: none;
+}
+
+/* The navbar container */
+menu {
+	overflow: hidden;
+	background-color: darkgray;
+}
+ 
+  /* Navbar links */
+menu a {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: white;
+	text-align: center;
+	padding: 1rem 2rem;
+	text-decoration: none;
+}
+  
+  /* Links - change color on hover */
+menu a:hover {
+	background-color: grey;
+	color: white;
+}
+
+column {
+	float: left;
+	width: 33.33%;
+}
+
+main{
+	background-color: dark-gray;
+	display:block;
+	text-align:left;
+}
+
+.blubber{
+	border-style: dotted;
+	margin: 0.1rem;
+}
+
+footer{
+	background-color: dark-gray;
+	color: white;
+}
+
+h6{
+	font-size: 1rem;
+	text-decoration:underline;
+}
+
+p{
+	font-size: 1rem;
+}
