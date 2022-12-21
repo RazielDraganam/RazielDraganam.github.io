@@ -67,6 +67,16 @@ main{
 	margin: 0.1rem;
 }
 
+.historisches{
+	border-bottom: dashed;
+	margin: 0.1rem;
+}
+
+.zeitstrahl{
+	border-style: solid;
+	margin: 0.1rem;
+}
+
 footer{
 	background-color: dark-gray;
 	color: white;
