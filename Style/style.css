@@ -81,7 +81,7 @@ column {
 }
 
 #game{
-	background-image: url('../Images/spiel/Tisch.png');
+	background-image: url('../Images/Tisch.png');
 	background-size:cover;
 	width:50rem;
 	height:30rem;
