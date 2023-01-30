@@ -39,6 +39,10 @@ header {
 	font-size: 3rem;
 }
 
+header >p{
+	text-align: center;
+}
+
 header a {
 	float: right;
 	display: flex;
@@ -118,6 +122,11 @@ main{
 .blubber{
 	border-style: dotted;
 	margin: 0.1rem;
+}
+
+.portfolio{
+	border-style: dotted;
+	margin:0.01rem;
 }
 
 .historisches{
