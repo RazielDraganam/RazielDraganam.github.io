@@ -1,14 +1,9 @@
-@media only screen and (max-width: 600px) {
-	body{
-		max-width:100%;
-	}
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	body{
 		max-width:100%
 	}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -40,7 +35,8 @@ header {
 }
 
 header >p{
-	text-align: center;
+	position: absolute;
+	left: 210px;
 }
 
 header a {
@@ -55,13 +51,13 @@ header a {
 	text-decoration: none;
 }
 
-/* The navbar container */
+/* Menü oben */
 menu {
 	overflow: hidden;
 	background-color: darkgray;
 }
  
-  /* Navbar links */
+  /* Navbar oben */
 menu a {
 	float: left;
 	display: flex;
@@ -74,15 +70,81 @@ menu a {
 	text-decoration: none;
 }
   
-  /* Links - change color on hover */
+  /* Links Menü oben farbe ändern bei hover */
 menu a:hover {
 	background-color: grey;
 	color: white;
 }
 
-column {
-	float: left;
-	width: 33.33%;
+main{
+	background-color: dark-gray;
+	display:block;
+	text-align:left;
+}
+
+.SideNav{
+	padding: 0.5rem;
+	display: grid;
+	grid: auto-columns;
+	border:box;
+	border-style: dashed;
+	justify-content:flex-start;
+	align-items:left;
+	height: 100%;
+	width: 15rem;
+	background-color: darkgray;
+	text-align: left;
+	text-decoration: none;
+	position:absolute;
+}
+
+.SideNav a{
+	color:white;
+	font-size: 1rem;
+	padding:0.8rem;
+}
+
+.SideNav a:hover {
+	background-color: grey;
+	color: white;
+}
+
+.SideNavDamenmode{
+	text-align:end;
+}
+
+.content{
+	margin-left:18rem;
+	background-color: gray;
+	display: block;
+	text-align:left;
+}
+
+.blubber{
+	border-style: dotted;
+	margin: 0.1rem;
+}
+
+.portfolio{
+	border-style: dotted;
+	margin:0.01rem;
+}
+
+.historisches{
+	border-bottom: dashed;
+	margin: 0.1rem;
+}
+
+.zeitstrahl{
+	border-style: solid;
+	margin: 0.1rem;
+}
+
+.Quelle{
+	color:white;
+	margin-left:18rem;
+	display: block;
+	text-align:left;
 }
 
 #game{
@@ -111,32 +173,6 @@ column {
 	font-size:2rem;
 	font-family:arial;
 	color:white;	
-}
-
-main{
-	background-color: dark-gray;
-	display:block;
-	text-align:left;
-}
-
-.blubber{
-	border-style: dotted;
-	margin: 0.1rem;
-}
-
-.portfolio{
-	border-style: dotted;
-	margin:0.01rem;
-}
-
-.historisches{
-	border-bottom: dashed;
-	margin: 0.1rem;
-}
-
-.zeitstrahl{
-	border-style: solid;
-	margin: 0.1rem;
 }
 
 footer{
