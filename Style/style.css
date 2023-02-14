@@ -34,7 +34,7 @@ header {
 	font-size: 3rem;
 }
 
-header >p{
+header p{
 	position: absolute;
 	left: 210px;
 }
@@ -90,7 +90,7 @@ main{
 	border-style: dashed;
 	justify-content:flex-start;
 	align-items:left;
-	height: 100%;
+	height: justify-content;
 	width: 15rem;
 	background-color: darkgray;
 	text-align: left;
@@ -109,7 +109,7 @@ main{
 	color: white;
 }
 
-.SideNavDamenmode{
+.SideNavEnde{
 	text-align:end;
 }
 
