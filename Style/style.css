@@ -34,7 +34,7 @@ header {
 	font-size: 3rem;
 }
 
-header p{
+header >p{
 	position: absolute;
 	left: 210px;
 }
