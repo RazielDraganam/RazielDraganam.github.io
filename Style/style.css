@@ -1,0 +1,114 @@
+body {
+	background-color: gray;
+	font-family:'Times New Roman', Times, serif;
+}
+
+header {
+	background-color: black;
+	color: white;
+	text-align: left;
+	font-size: 3rem;
+}
+
+header >p{
+	position: absolute;
+	left: 210px;
+    font-size: 1.5rem;
+}
+
+header a {
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: white;
+	text-align: center;
+	padding: 1rem 2rem;
+	text-decoration: none;
+}
+
+/* Menü oben */
+menu {
+	overflow: hidden;
+	background-color: darkgray;
+}
+
+/* Navbar oben */
+menu a {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: white;
+	text-align: center;
+	padding: 1rem 2rem;
+	text-decoration: none;
+}
+  
+/* Links Menü oben farbe ändern bei hover */
+menu a:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
+main{
+	background-color: dark-gray;
+	display:block;
+	text-align:left;
+}
+
+.blubber{
+	border-style: dotted;
+	margin: 0.1rem;
+}
+
+footer{
+    background-color: dark-gray;
+    display: block;
+    text-align: center;
+    color: lightgray;
+}
+
+/*.SideNav{
+	padding: 0.5rem;
+	display: grid;
+	grid: auto-columns;
+	border:box;
+	border-style: dashed;
+	justify-content:flex-start;
+	align-items:left;
+	height: justify-content;
+	width: 15rem;
+	background-color: darkgray;
+	text-align: left;
+	text-decoration: none;
+	position:absolute;
+}*/
+
+/*.SideNav a{
+	color:white;
+	font-size: 1rem;
+	padding:0.8rem;
+}*/
+
+/*.SideNav a:hover {
+	background-color: grey;
+	color: white;
+}*/
+
+/*.SideNavEnde{
+	text-align:end;
+}*/
+
+/*.content{
+	margin-left:18rem;
+	background-color: gray;
+	display: block;
+	text-align:left;
+}*/
+
+/*p{
+	font-size: 1rem;
+}*/
