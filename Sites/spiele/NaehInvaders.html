@@ -14,6 +14,9 @@
 
         <title>RazielDraganam</title>
 
+		<script src = "../../Javascript/NaehInvaders/main.js" defer></script>		<!-- defer: lädt das Javascript erst wenn dieWebsite fertig geladen ist-->
+		<script src = "../../Javascript/NaehInvaders/Player.js" defer></script>	    <!-- Für den Player-->
+
     </head>
 
     <body>
@@ -55,6 +58,19 @@
                 <p>Hier entsteht das Speil "Näh Invaders". Da das im Rahmen meiner Ausbidlung stattfindet, richtet sich
                     der Zeitplan nach meinem Stundenplan...
                 </p>
+                
+                <p>Die Musik sit derzeit noch ausgeliehen. Schaut bitte auch bei <a href="https://csstrainer.de/index.html?type=examples&name=start" target="_blank">
+                    CSS Trainer</a> (Musik verlinkt) vorbei bis ich meine eigene Musik gefunden habe. Wenn Ihr die Quelle der Musik unterstützen wollt, findet
+                    ihr bei <a href="https://sebastianboettcher.net/" target="_blank">der Website meines Lehrers (Sebastian Böttcher)</a> bestimmt eine Möglichkeit.
+                </p>
+
+                <section class = gui>
+                    <button id= "playMusic">PlayMusic</button>
+                    <label for="volume">Volume</label>
+                    <input id="volume" type = "range" name="volume" min=0 max=1 step=0.1 >
+    
+                    <button id="play">PLAY</button>
+               </section>
 
                 <div id="game">
 		   

@@ -149,6 +149,92 @@ main{
 	text-align:left;
 }
 
+.gui{
+	background-color: black;
+	border: black;
+	color: white;
+	font: Retro, sans-serif;
+	padding: 0.4rem;
+	text-align: center;
+	align-items:center;
+}
+
+.gui button{
+	background-color: black;
+	border: solid;
+	border-color:white;
+	color: white;
+	font: Retro, sans-serif;
+	padding: 0.4 rem;
+	width: 20%;
+}
+
+.gui label{
+	background-color: black;
+	color: white;
+	border:black;
+	font: Retro, sans-serif;
+	padding:0.4rem;
+}
+
+.gui volume{
+	appearance: none;
+	width: 100%;
+	height: 15px;
+	border-radius: 5px;  
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+	  
+.gui volume::-webkit-slider-thumb {
+	appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%; 
+	background: #04AA6D;
+	cursor: pointer;
+}
+
+.gui voume::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #04AA6D;
+	cursor: pointer;
+}
+
+#game{
+	background-image: url('../Images/TV.png');
+	background-size:cover;
+	width:50rem;
+	height:30rem;
+	border:0.2rem solid black;
+	padding:4.8rem 14.5rem 6rem 5rem;	
+}
+
+#game canvas{
+	background-color: black;	
+	width:100%;
+	height:100%;
+	border-top: 0.2rem solid white;
+}
+
+#game section{
+	display: flex;
+	justify-content: space-around;
+	gap:0.5rem;
+}
+
+#score, #lives{
+	font-size:2rem;
+	font-family:arial;
+	color:white;	
+}
+
 footer{
     background-color: dark-gray;
     display: block;
