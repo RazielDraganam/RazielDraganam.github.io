@@ -91,19 +91,7 @@ main{
 	text-align:left;
 }
 
-.blubber{
-	border-style: dotted;
-	margin: 0.1rem;
-}
-
-footer{
-    background-color: dark-gray;
-    display: block;
-    text-align: center;
-    color: lightgray;
-}
-
-/*.SideNav{
+.SideNav{
 	padding: 0.5rem;
 	display: grid;
 	grid: auto-columns;
@@ -117,22 +105,41 @@ footer{
 	text-align: left;
 	text-decoration: none;
 	position:absolute;
-}*/
+}
 
-/*.SideNav a{
+.SideNav a{
 	color:white;
 	font-size: 1rem;
 	padding:0.8rem;
-}*/
+}
 
-/*.SideNav a:hover {
+.SideNav a:hover {
 	background-color: grey;
 	color: white;
-}*/
+}
 
-/*.SideNavEnde{
+.SideNavEnde{
 	text-align:end;
-}*/
+}
+
+.blubber{
+	border-style: dotted;
+	margin: 0.1rem;
+}
+
+footer{
+    background-color: dark-gray;
+    display: block;
+    text-align: center;
+    color: lightgray;
+}
+
+.content{
+	margin-left:18rem;
+	background-color: gray;
+	display: block;
+	text-align:left;
+}
 
 /*.content{
 	margin-left:18rem;
