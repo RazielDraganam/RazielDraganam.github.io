@@ -1,18 +1,23 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-		menu a {
-			width: 50%;
-			display:inline-table;
-			justify-content:flex-start;
-		}
 
-		header p{
-			width:50%;
-		}
+	header{
+		width: 50%;
+	}
+	
+	header p{
+		width:50%;
+	}
 
-		header a{
-			width: 20%;
-		}
+	header a{
+		width: 20%;
+	}
+	
+	menu a {
+		width: 50%;
+		display:inline-table;
+		justify-content:flex-start;
+	}
 
 }
 
@@ -208,7 +213,7 @@ main{
 }
 
 #game{
-	background-image: url('../Images/TV.png');
+	/**background-image: url('../Images/TV.png');**/
 	background-size:cover;
 	width:50rem;
 	height:30rem;
