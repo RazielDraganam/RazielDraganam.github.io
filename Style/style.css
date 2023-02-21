@@ -2,22 +2,45 @@
 @media only screen and (max-width: 600px) {
 
 	header{
-		width: 50%;
-	}
-	
-	header p{
-		width:50%;
+		width: 100%;
+		font-size:0.1rem;
 	}
 
-	header a{
-		width: 20%;
+	header p{
+		content-visibility: hidden;
 	}
-	
-	menu a {
+
+	header img{
+		width:20%;
+	}
+
+	menu{
+		width: 40%;
+	}
+
+/**	.SideNav{
+		overflow: hidden;
+		position: relative;
+		width:auto;
+	}
+
+	.SideNavMitte{
+		width:auto;
+	}
+
+	.SideNavEnde{
+		width:auto;
+	}
+
+	.SideNav a {
+		width:auto;
+	}
+**/
+/**	menu a {
 		width: 50%;
 		display:inline-table;
 		justify-content:flex-start;
-	}
+	}**/
 
 }
 
@@ -99,7 +122,6 @@ main{
 .SideNav{
 	padding: 0.5rem;
 	display: grid;
-	grid: auto-columns;
 	border:box;
 	border-style: dashed;
 	justify-content:flex-start;
