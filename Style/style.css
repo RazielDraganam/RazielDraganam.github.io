@@ -179,6 +179,25 @@ main{
 	text-align:left;
 }
 
+@font-face{
+	font-family:'Retro';
+	src: url('../Fonts/Retro60Prime.ttf') format('truetype');
+}
+
+.NaehInvaders{
+	font-family: Retro, sans-serif;
+	padding:2rem;
+	font-size: 1rem;
+}
+
+.NaehInvaders >h1:first-letter{
+	font-size: 5rem;
+}
+
+.NaehInvaders >p:first-letter{
+	font-size: 5rem;
+}
+
 .gui{
 	background-color: black;
 	border: black;
