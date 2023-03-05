@@ -89,4 +89,4 @@ function won(){
 }
 
 
-drawCards(20);
+drawCards(30);
