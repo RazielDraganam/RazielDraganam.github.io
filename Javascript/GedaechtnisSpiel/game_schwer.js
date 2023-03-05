@@ -37,8 +37,8 @@ function checkDifficulty(){
 
 function drawCards( count ){
 
-    if(count>19)
-        count=19;
+    if(count>20)
+        count=20;
 
     for (let i = 1; i <= count; i++){
 
