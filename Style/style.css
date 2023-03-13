@@ -15,47 +15,29 @@
 	}
 
 	menu{
-		width: 40%;
+		width: 100%;
+
+	}
+	menu a{
+		border-style: dotted;
+		border-color: black;
 	}
 
-/**	.SideNav{
-		overflow: hidden;
-		position: relative;
-		width:auto;
+	.SideNav{
+		/*position: relative;*/
+		width:20%;
 	}
-
-	.SideNavMitte{
-		width:auto;
-	}
-
-	.SideNavEnde{
-		width:auto;
-	}
-
-	.SideNav a {
-		width:auto;
-	}
-**/
-/**	menu a {
-		width: 50%;
-		display:inline-table;
-		justify-content:flex-start;
-	}**/
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {...}
-
 Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {...}
-
 /* Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {...}
-
 /* Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {...}
-
 /********************************************************************************************/
 
 body {
@@ -119,6 +101,7 @@ main{
 	text-align:left;
 }
 
+/*Seiten Menü allgemein*/
 .SideNav{
 	padding: 0.5rem;
 	display: grid;
@@ -134,6 +117,7 @@ main{
 	position:absolute;
 }
 
+/*Seiten Menü Links*/
 .SideNav a{
 	color:white;
 	font-size: 1rem;
@@ -141,11 +125,15 @@ main{
 	width:10rem;
 }
 
+
+/*Seiten Menü bei Maus-Hovere*/
 .SideNav a:hover {
 	background-color: grey;
 	color: white;
 }
 
+
+/*Seiten Menü mittlere einrüclung*/
 .SideNavMitte{
 	display:grid;
 	text-align:center;
@@ -153,6 +141,7 @@ main{
 	width: 10rem;
 }
 
+/*Seiten Menü ganz rechts*/
 .SideNavEnde{
 	display:grid;
 	text-align:end;
@@ -160,11 +149,13 @@ main{
 	width:10rem;
 }
 
+/*Blubber Seiten Stil mit Umrandeten boxen*/
 .blubber{
 	border-style: dotted;
 	margin: 0.1rem;
 }
 
+/* Quellenangaben formatierung*/
 .Quelle{
 	color:white;
 	margin-left:18rem;
@@ -172,6 +163,7 @@ main{
 	text-align:left;
 }
 
+/* Inhalt jeder Seite eingerückt wegen Seitenmenü*/
 .content{
 	margin-left:18rem;
 	background-color: grey;
@@ -179,6 +171,7 @@ main{
 	text-align:left;
 }
 
+/*NähInvaders*/
 .gui{
 	background-color: black;
 	border: black;
@@ -188,6 +181,7 @@ main{
 	align-items:center;
 }
 
+/*Nähinvaders Button*/
 .gui button{
 	background-color: black;
 	border: solid;
@@ -197,6 +191,7 @@ main{
 	width: 20%;
 }
 
+/*Nähinvaders gui label*/
 .gui label{
 	background-color: black;
 	color: white;
@@ -204,6 +199,7 @@ main{
 	padding:0.4rem;
 }
 
+/*Näinvaders lautstärke button?*/
 .gui volume{
 	appearance: none;
 	width: 100%;
@@ -215,7 +211,8 @@ main{
 	-webkit-transition: .2s;
 	transition: opacity .2s;
 }
-	  
+
+/*Nähinvaders slider*/
 .gui volume::-webkit-slider-thumb {
 	appearance: none;
 	appearance: none;
@@ -226,6 +223,7 @@ main{
 	cursor: pointer;
 }
 
+/*Nähinvaders slider*/
 .gui voume::-moz-range-thumb {
 	width: 25px;
 	height: 25px;
@@ -234,6 +232,7 @@ main{
 	cursor: pointer;
 }
 
+/*Nähinvaders game*/
 #game{
 	/**background-image: url('../Images/TV.png');**/
 	background-size:cover;
@@ -243,6 +242,7 @@ main{
 	padding:4.8rem 14.5rem 6rem 5rem;	
 }
 
+/*Nähinvaders Canvas*/
 #game canvas{
 	background-color: black;	
 	width:100%;
@@ -250,27 +250,32 @@ main{
 	border-top: 0.2rem solid white;
 }
 
+/*Nähinvaders game section*/
 #game section{
 	display: flex;
 	justify-content: space-around;
 	gap:0.5rem;
 }
 
+/*Nähinvaders score und leben*/
 #score, #lives{
 	font-size:2rem;
 	font-family:arial;
 	color:white;	
 }
 
+/*GedächtnisSpiel hintergrund*/
 #GedaechtnisSpiel{
 	background-color:black;
 }
 
+/*GedächtnisSpiel animation hintergrundfarbe*/
 @keyframes test {							/*ändern der Hintergrundfarbe vom Gedächtnisspiel*/
 	from {background-color: white;}
 	to {background-color: darkgray;}
 }
 
+/*Gedächtnis Spiel*/
 #GedaechtnisSpiel{
 	display:flex;
 	flex-direction: row;
@@ -285,11 +290,13 @@ main{
 	animation-fill-mode: forwards ;
 }
 
+/*Gedächtnisspiel animation vergrößern der Karten*/
 @keyframes animation{					/*animation der Spielkarten, das erscheinen. Bei widht und height werden die karten "eingespült"*/
 	from {scale:0%}
 	to {scale:100%;}
 }
 
+/*GedächtnisSpiel alle Bilder auf eine größe, falls mal eins nicht 256x256px ist*/
 #GedaechtnisSpiel img{
 	width: 8rem;
 	height: 8rem;
@@ -302,10 +309,12 @@ main{
 	animation-fill-mode: forwards;
 }
 
+/*Gedächtnisspiel bei maus hover über karte*/
 #GedaechtnisSpiel img:hover{
 	opacity:80%;
 }
 
+/*GedächtnisSpiel fenster nach Spielende*/
 .window{								/*Fenster nach gewonnenem spiel und neustart*/
 	position:absolute;
 	top:15%;
