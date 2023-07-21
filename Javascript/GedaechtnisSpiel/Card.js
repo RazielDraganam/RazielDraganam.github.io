@@ -71,7 +71,7 @@ class Card{
             revealedCards.first = null;
             revealedCards.second = null;            
             locked = false;
-            }, 800
+            }, 1000
             );
         }
 
