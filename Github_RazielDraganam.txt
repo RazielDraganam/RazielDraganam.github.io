@@ -1,8 +1,34 @@
 Github_RazielDraganam
 
-Korsett anleitung (unfertig) reinschreiben
-Korsett anleitunge (geplant) reiter machen
+Korsett anleitung (unfertig)
+Korsett anleitunge (geplant)
 
 Historische Unterwäsche weiter machen
 
 überarbeitete Konzepte hochladen
+
+Nähtechniken
+	historische Referenzen (javascript tabelle?
+		Maßtabelle inch
+		Maßtabelle cm
+	Schnittmuster
+		Maß nehmen
+		erstellen
+		vergrößern
+		ändern
+		Nahtzugabe
+		auf Stoff legen
+		schneiden
+	Stiche
+		Rückwärtsstich
+		usw
+	Techniken
+		französische Naht
+		Rüschen
+		Knopfloch
+		Stopfen
+
+turn of the century buch
+	maßnehmen einfügen
+	tabelle einfügen
+		
