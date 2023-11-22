@@ -88,7 +88,7 @@
 		}
 		
 		
-		/*Seiten Menü mittlere einrüclung*/
+		/*Seiten Menü mittlere einrückung*/
 		.SideNavMitte{
 			display:grid;
 			text-align:center;
@@ -288,14 +288,14 @@
 				}
 				
 				
-				/*Seiten Menü bei Maus-Hovere*/
+				/*Seiten Menü bei Maus-Hover*/
 				.SideNav a:hover {
 					background-color: grey;
 					color: white;
 				}
 				
 				
-				/*Seiten Menü mittlere einrüclung*/
+				/*Seiten Menü mittlere einrückung*/
 				.SideNavMitte{
 					display:grid;
 					text-align:center;
