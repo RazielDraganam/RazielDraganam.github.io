@@ -1,22 +1,7 @@
 Github_RazielDraganam
 
-php navigation oben?
-php navigation seite?
-
-impressum email auf 
-	madeleinegemmrich@gmail.com 	oder
-	razieldraganam@gmail.com	(Programmierheft)
-	ändern
-
-Korsett anleitung (unfertig)
-Korsett anleitunge (geplant)
-
-Historische Unterwäsche weiter machen
-
-überarbeitete Konzepte hochladen
-
 Nähtechniken
-	historische Referenzen (javascript tabelle?
+	historische Referenzen (javascript tabelle?)
 		Maßtabelle inch
 		Maßtabelle cm
 	Schnittmuster
