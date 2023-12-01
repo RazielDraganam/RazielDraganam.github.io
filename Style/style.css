@@ -26,8 +26,10 @@ Large devices (laptops/desktops, 992px and up)
 
 Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {...}
-******************************************************************************************* */
+/* ******************************************************************************************* */
 
+
+/* Standardwerte!! (Ohne Bildschirmgrößen-Angabe */
 body {
 	background-color: gray;
 	font-family: 'pixelSchriftart', Times New Roman, Times, serif;
@@ -149,7 +151,7 @@ main{
 .blubber{
 	border-style: dotted;
 	margin: 0.1rem;
-	padding: 0.2rem;
+	padding: 0.5rem;
 }
 
 /* Quellenangaben formatierung*/
@@ -166,6 +168,13 @@ main{
 	background-color: grey;
 	display: block;
 	text-align:left;
+}
+
+/* Inhalt jeder Seite eingerückt wegen Seitenmenü*/
+.kasten{
+	border-style:dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
 }
 
 /*GedächtnisSpiel hintergrund*/
