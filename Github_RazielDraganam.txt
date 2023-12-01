@@ -1,5 +1,8 @@
 Github_RazielDraganam
 
+Schriftart: advanced pixel 7
+https://www.1001freefonts.com/advanced-pixel-7.font
+
 Nähtechniken
 	historische Referenzen (javascript tabelle?)
 		Maßtabelle inch
