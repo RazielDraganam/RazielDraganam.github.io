@@ -1,58 +1,17 @@
 Github_RazielDraganam
 
-Bilder auf 800 pixel breit und verelinkt in groß
 Bilder in der Gesamtübersicht 400px breit, 200 px hoch
 bei Schriftsachen 200 px breite
 
-class="kastenHistorisch"
-class="kastenHistorischRechts"
 * * * * *
 
-Bilder alle kleiner machen für Vorschau usw.
-Codebeispiele ändern (Code Skripte aus Projekten holen)
-Sonstige Arbeiten
+* neue Korsett Anleitung Platzhalter ersetzen
+* Empfehlungen Platzhalter ersetzen
+
 Lebenslauf?
 Englische Konzepte machen und einstellen
-Geduldsspiel in der übersicht mit Screenshot machen
 
 CSS mobile seiten
-
-
-Menü oben:
-Spiele
-Sonstiges
-
-* * * * *
-
-Übersichten Portfolio usw, dass abwechselnd ist:
-	.kasten
-	.kastenRechts
-
-kasten links:
-<section class="kasten">
-	<h2><a href="../XXX.pdf" target="_blank">Titel</a></h2>
-	<p>
-		<a href ="../xxx.html">
-		<img src="../yyy.jpg" alt="Beschreibung Bild">
-		</a>
-                <br>
-		Ein Satz, der den inhalt beschreibt.
-	</p>
-</section>
-
-kasten rechts:
-<section class="kastenRechts">
-	<h2><a href="../XXX.pdf" target="_blank">Titel</a></h2>
-	<p>
-		<a href ="../XXX.html">
-		<img src="../YYY.jpg" alt="Beschreibung Bild">
-		</a>
-		<br>
-		Ein Satz, der den Inhalt beschreibt.
-	</p>
-</section>
-
-* * * * *
 
 Nähtechniken
 	historische Referenzen (javascript tabelle?)

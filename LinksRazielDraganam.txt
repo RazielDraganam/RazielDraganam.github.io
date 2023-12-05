@@ -6,3 +6,45 @@ Bild Link
 	<img src="../YYY.jpg" 
 	alt="Beschreibung Bild">
 </a>
+
+Verlinkung mit Bild
+<h2><a href="xxx.html" target="_blank">Titel</a></h2>
+	<a href="xxx.html" target="_blank">
+    		<img src="yyy.jpg" 
+        	alt="Beschreibung Bild">
+	</a>
+	<p>
+	    Beschreibung
+	</p>
+
+* * * * *
+
+Übersichten Portfolio usw, dass abwechselnd ist:
+	.kasten
+	.kastenRechts
+
+kasten links:
+<section class="kasten">
+	<h2><a href="../XXX.pdf" target="_blank">Titel</a></h2>
+	<p>
+		<a href ="../xxx.html">
+		<img src="../yyy.jpg" alt="Beschreibung Bild">
+		</a>
+                <br>
+		Ein Satz, der den inhalt beschreibt.
+	</p>
+</section>
+
+kasten rechts:
+<section class="kastenRechts">
+	<h2><a href="../XXX.pdf" target="_blank">Titel</a></h2>
+	<p>
+		<a href ="../XXX.html">
+		<img src="../YYY.jpg" alt="Beschreibung Bild">
+		</a>
+		<br>
+		Ein Satz, der den Inhalt beschreibt.
+	</p>
+</section>
+
+* * * * *
