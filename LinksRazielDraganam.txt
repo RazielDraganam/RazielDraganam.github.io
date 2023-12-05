@@ -1,0 +1,8 @@
+Schrift Link
+<a href="../XXX.pdf" target="_blank">Titel Konzept</a>
+
+Bild Link
+<a href="../XXX.pdf">
+	<img src="../YYY.jpg" 
+	alt="Beschreibung Bild">
+</a>
