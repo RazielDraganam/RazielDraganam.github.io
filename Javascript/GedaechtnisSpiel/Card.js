@@ -1,7 +1,7 @@
 class Card{
 
-    revealed = false;
-    found = false;
+    revealed = false;                                               // Karten standardmäßig verdeckt
+    found = false;                                                  // Standardmäßig kein Pärchen gefunden
 
     elem;
 
@@ -24,54 +24,53 @@ class Card{
         })
     }
 
-    show(){
+    show(){                                                         // Anzeigen der Karten bei anklicken
         if(revealedCards.first == null || revealedCards.second == null){
             this.elem.src = this.file;
 
-            if(revealedCards.first == null && !this.revealed){
+            if(revealedCards.first == null && !this.revealed){      // Erste Karte aufdecken
                 revealedCards.first = this;
                 this.revealed = true;
             }
-            else if (revealedCards.second == null && !this.revealed){
-                revealedCards.second = this;
+            else if (revealedCards.second == null && !this.revealed){   // Zweite Karte aufdecken
+                revealedCards.second = this;    
                 this.revealed=true;
-                this.compare();
+                this.compare();                                     // Karte 1 und Karte 2 vergleichen
             }
         }
 
     }
 
-    hide(){
+    hide(){                                                         // Karten wieder verdecken
         this.elem.src = this.coverFile;
     }
 
-    compare(){
+    compare(){                                                      // Karten vergleichen
 
         if(locked)return;
-        tries++;
+        tries++;                                                    // Versuche hochzählen
 
-        if(revealedCards.first.name == revealedCards.second.name){
-            //Karten sind gleich
+        if(revealedCards.first.name == revealedCards.second.name){  //bei gleichen Karten
                 revealedCards.first.found = true;
                 revealedCards.second.found = true;
                 revealedCards.first = null;
                 revealedCards.second = null;
 
-                if(this.isComplete())
+                if(this.isComplete())                               //Wenn alle Pärchen gefunden wurden, hat man gewonnen
                     won ();
         }
         else{
-            //Karten sind nicht gleich
+                                                                    //Karten sind nicht gleich
             locked = true;
             setTimeout(()=>{
-            revealedCards.first.hide();
-            revealedCards.second.hide();
+            revealedCards.first.hide();                             // Karte 1 verdecken
+            revealedCards.second.hide();                            // Karte 2 verdecken
             revealedCards.first.revealed = false;
             revealedCards.second.revealed = false;            
             revealedCards.first = null;
             revealedCards.second = null;            
             locked = false;
-            }, 1000
+            }, 1000                     
             );
         }
 
@@ -80,7 +79,7 @@ class Card{
 
 
 
-isComplete() {
+isComplete() {                                                      // Wenn alle Pärchen gefunden wurden
     let complete = true;
 
     cardsList.forEach ( card => {

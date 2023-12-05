@@ -253,6 +253,14 @@ main{
 	list-style-position: end;
 }
 
+footer{
+    display: block;
+    text-align: center;
+    color: lightgray;
+	word-wrap: break-word;
+	font-size: 0.7rem;
+}
+
 /*GedächtnisSpiel hintergrund*/
 #GedaechtnisSpiel{
 	background-color:black;
@@ -321,11 +329,4 @@ main{
 	opacity: 80%;
 	text-align: center;
 
-}
-
-footer{
-    display: block;
-    text-align: center;
-    color: lightgray;
-	word-wrap: break-word;
 }

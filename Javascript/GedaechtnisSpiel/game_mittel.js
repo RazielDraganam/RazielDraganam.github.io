@@ -1,4 +1,4 @@
-/*Dokumentation beim übertragen einbauen*/
+
 const cardsList = [];
 const container = document.querySelector("#GedaechtnisSpiel");
 const folder ="../../Images/spiele/GedaechtnisSpiel/mem_cards/";
@@ -13,7 +13,6 @@ let revealedCards = {
 }
 
 
-// go over the radio buttons and check the difficulty selection
 function checkDifficulty(){
 	[].forEach.call(difficulties, function(input){
 		input.nextElementSibling.classList.remove('checked');
@@ -63,12 +62,8 @@ function mixCards(cards){
 
 }
 
-//**Die Funktionen beschreiben
-//
-// *//
-
 function won(){
-    // toDo: Fenster mit Anzahl der Züge und Gewinnnachricht anzeigen
+
     console.log("Won");
 
     const window = document.createElement ("div");

@@ -1,7 +1,7 @@
 Github_RazielDraganam
 
 Bilder auf 800 pixel breit und verelinkt in groß
-Bilder in der Gesamtübersihht 400px breit, 200 px hoch
+Bilder in der Gesamtübersicht 400px breit, 200 px hoch
 bei Schriftsachen 200 px breite
 
 class="kastenHistorisch"
