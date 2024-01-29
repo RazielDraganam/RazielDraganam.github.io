@@ -36,5 +36,4 @@ Nähtechniken
 
 turn of the century buch
 	maßnehmen einfügen
-	tabelle einfügen
 		
