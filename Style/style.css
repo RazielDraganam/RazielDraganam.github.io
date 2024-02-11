@@ -38,7 +38,7 @@ header {
 	background-color: black;
 	color: white;
 	text-align: left;
-	font-size: 1rem;
+	font-size: 0.5rem;
 	word-wrap: break-word;
 }
 
@@ -75,13 +75,13 @@ menu {
 /* Navbar oben */
 menu a {
 	float: left;
-	display: flex;
+	display:inline-flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
 	color: white;
 	text-align: center;
-	padding: 1rem 2rem;
+	padding: 0.5rem 1rem;
 	text-decoration: none;
 	word-wrap: break-word;
 }
@@ -103,7 +103,7 @@ main{
 /*Seiten Menü allgemein*/
 .SideNav{
 	padding: 0.5rem;
-	display: grid;
+	display:grid;
 	border-style: dotted;
 	justify-content:flex-start;
 	align-items:left;
@@ -124,7 +124,7 @@ main{
 	width:3rem;
 	border-style:dotted;
 	word-wrap: break-word;
-	font-size: 0.8rem;
+	font-size: 0.5rem;
 }
 
 
@@ -140,7 +140,7 @@ main{
 	display:grid;
 	text-align:center;
 	padding:1rem;
-	width: 10rem;
+	width: 3rem;
 	word-wrap: break-word;
 }
 
@@ -149,7 +149,7 @@ main{
 	display:grid;
 	text-align:end;
 	padding:1rem;
-	width:10rem;
+	width:3rem;
 	word-wrap: break-word;
 }
 
@@ -406,7 +406,7 @@ main{
 	justify-content:flex-start;
 	align-items:left;
 	height: fit-content;
-	width: 15rem;
+	width:8rem;
 	background-color: darkgrey;
 	text-align: left;
 	text-decoration: none;
@@ -418,8 +418,8 @@ main{
 .SideNav a{
 	color:white;
 	font-size: 0.5rem;
-	padding:1rem;
-	width:10rem;
+	padding:0.5rem;
+	width:5rem;
 	border-style:dotted;
 	word-wrap: break-word;
 	font-size: 0.8rem;
@@ -438,7 +438,7 @@ main{
 	display:grid;
 	text-align:center;
 	padding:1rem;
-	width: 10rem;
+	width: 4rem;
 	word-wrap: break-word;
 }
 
@@ -447,7 +447,7 @@ main{
 	display:grid;
 	text-align:end;
 	padding:1rem;
-	width:10rem;
+	width:4rem;
 	word-wrap: break-word;
 }
 
@@ -471,7 +471,7 @@ main{
 
 /* Inhalt jeder Seite eingerückt wegen Seitenmenü*/
 .content{
-	margin-left:18rem;
+	margin-left:10rem;
 	background-color: grey;
 	display: block;
 	text-align:left;
