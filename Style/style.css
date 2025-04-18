@@ -21,16 +21,39 @@
 			 url('../Fonts/historisch/alagard-webfont.woff') format('woff');
 	}
 
+	/*
+	max-width: 600px (vorhanden)
+	max-width: 768px (vorhanden)
+	max-width: 1200px (vorhanden)
+
+	breite x höhe
+
+	Desktop:
+		1920x1080 (Full HD)
+		1366x768
+		1280x720 (HD)
+		1024x768
+		800x600
+
+	Mobiltelefone:
+		360x800 (Beispiel)
+		320x569 (Beispiel)
+
+	Tablets:
+		768x1024 (Beispiel)
+		1024x768 
+	*/
+
 
 /* *****************************************************************************************************************************************************/
 /*Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 800px) 
 {
     
 body {
 	background-color: gray;
 	font-family: 'pixelSchriftart', Times New Roman, Times, serif;
-	font-size: 0.8rem;
+	font-size: 0.5rem; 
 	word-wrap: break-word;
 }
 
@@ -38,9 +61,20 @@ header {
 	background-color: black;
 	color: white;
 	text-align: left;
-	font-size: 0.5rem;
+	font-size: 0.3rem;
 	word-wrap: break-word;
 }
+
+/* Header Logo größe */
+header > img{
+	max-width: 5%;
+}
+
+
+header > a > img{
+	max-width: 25%;
+}
+	
 
 /* RazielDragana - Schülerin... im Header */
 header >p{
@@ -347,6 +381,16 @@ header >p{
 	word-wrap: break-word;
 }
 
+/* Header Logo größe */
+header >img{
+	max-width: 25%;
+}
+
+header > a > img{
+	max-width: 25%;
+}
+
+
 /* Link zu Github im Header */
 header a {
 	float: right;
@@ -638,6 +682,15 @@ header {
 	text-align: left;
 	font-size: 1rem;
 	word-wrap: break-word;
+}
+
+/* Header Logo größe */
+header >img{
+	max-width: 100%;
+}
+
+header > a > img{
+	max-width: 25%;
 }
 
 /* RazielDragana - Schülerin... im Header */
