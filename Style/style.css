@@ -75,7 +75,7 @@ header > a > img{
 }
 	
 
-/* RazielDragana - Schülerin... im Header */
+/* RazielDraganam - Schülerin... im Header */
 header >p{
 	position: absolute;
 	left: 210px;
@@ -271,6 +271,68 @@ main{
 .kastenHistorischRechts ul{
 	list-style-position: end;
 }
+
+
+
+
+
+.kastenStratagem{
+	border-style: dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+}
+
+.kastenStratagem img{
+	max-width: 100%;
+	min-width: auto;
+}
+
+.kastenStratagemRechts{
+	border-style: dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+	text-align:end;
+}
+
+.kastenStratagemOffensive{
+	color: rgb(142, 23, 23);
+	border-style: dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+}
+	
+.kastenStratagemSupply{
+	color: rgb(26, 26, 185);
+	border-style: dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+	text-align:end;
+}
+
+.kastenStratagemDefensive{
+	color: rgb(19, 125, 19);
+	border-style: dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+}
+
+.kastenStratagemOther{
+	color: rgb(188, 188, 19);
+	border-style: dotted;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+	text-align:end;
+}
+
+
+
+
 
 footer{
     display: block;
