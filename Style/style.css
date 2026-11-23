@@ -186,6 +186,7 @@ main{
 	word-wrap: break-word;
 }
 
+
 /*Blubber Seiten Stil mit Umrandeten boxen*/
 .blubber{
 	border-style: dotted;
@@ -328,6 +329,22 @@ main{
 	padding: 0.5rem;
 	word-wrap: break-word;
 	text-align:end;
+}
+
+.StratagemTable tbody tr td{
+	border-style: dotted;
+	border-color: darkgrey;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
+}
+
+.StratagemTable{
+	border-style: dotted;
+	border-color: black;
+	margin: 0.1rem;
+	padding: 0.5rem;
+	word-wrap: break-word;
 }
 
 
