@@ -337,14 +337,13 @@ main{
 	margin: 0.1rem;
 	padding: 0.5rem;
 	word-wrap: break-word;
+	
 }
 
-.StratagemTable{
-	border-style: dotted;
-	border-color: black;
-	margin: 0.1rem;
-	padding: 0.5rem;
-	word-wrap: break-word;
+.StratagemTable img{
+	max-width: 250px;
+	max-height: auto;
+	
 }
 
 
