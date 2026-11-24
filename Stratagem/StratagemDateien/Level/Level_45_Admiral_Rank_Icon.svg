@@ -1,0 +1,32 @@
+<svg viewBox="0 0 324 324" xmlns="http://www.w3.org/2000/svg">
+  <path d="M274,249.796 L162,314.5 50,249.619 V82.9902 L162,122.99 274,82.9902 V249.796 Z"
+    fill="#887841"
+    fill-rule="evenodd"
+  />
+  <path d="M266,245.179 L162.006,305.257 58,245.007 V94.3418 L159.31,130.524 162,131.485 164.69,130.524 266,94.3418 V245.179 Z"
+  	fill="none"
+    fill-rule="evenodd"
+    stroke="#ffec89"
+    stroke-width="16"
+  />
+  <path d="M0,0 h40 v40 h-40 z"
+    fill="#ffec89"
+    transform="matrix(0.8 -0.6 0.8 0.6 90 202)"
+  />
+  <path d="M0,0 h40 v40 h-40 z"
+    fill="#ffec89"
+    transform="matrix(0.8 -0.6 0.8 0.6 170 202)"
+  />
+  <path d="M0,0 h40 v40 h-40 z"
+    fill="#ffec89"
+    transform="matrix(0.8 -0.6 0.8 0.6 130 234)"
+  />
+  <path d="M162,19 L114,59 50,59 V67 L162,107 274,67 V59 H210 L162,19 Z"
+    fill="#ffec89"
+    fill-rule="evenodd"
+  />
+  <path d="M50,82.0008 L162,122.001 274,82.0008 V114.001 L162,154.001 50,114.001 V82.0008 Z"
+    fill="#ffec89"
+    fill-rule="evenodd"
+  />
+</svg>
